@@ -7,8 +7,8 @@ Esta é uma calculadora de Índice de Massa Corporal (IMC) desenvolvida utilizan
 O Índice de Massa Corporal (IMC) é uma medida que utiliza a altura e o peso de uma pessoa para determinar se ela está dentro de uma faixa de peso saudável. Ele é calculado dividindo o peso (em quilogramas) pela altura (em metros) ao quadrado.
 
 ## Layout:
-![image](https://github.com/eduardossoares/imc-calculator/assets/128731192/049214e0-e48f-4dc8-b0e6-808795e9e5d1)
 ![image](https://github.com/eduardossoares/imc-calculator/assets/128731192/a0c19734-9cb0-40d1-a606-1f70a74d2219)
+![image](https://github.com/eduardossoares/imc-calculator/assets/128731192/049214e0-e48f-4dc8-b0e6-808795e9e5d1)
 
 ## Como usar a calculadora?
 
