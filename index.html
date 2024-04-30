@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/output.css">
+    <link rel="stylesheet" href="styles/main.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <!-- Scripts -->
+    <script defer src="scripts/script.js"></script>
+
+    <title>Calcule seu IMC</title>
+</head>
+
+<body class="h-[100vh] flex justify-center items-center font-poppins flex-col gap-8">
+    <section class="sm:w-[514px] sm:h-[504px] sm:bg-gray-color sm:rounded-lg">
+        <div class="flex items-center gap-4 justify-center mt-16 text-white">
+            <h1 class="text-3xl sm:w-auto sm:text-4xl font-semibold text-center">Calcule seu IMC</h1>
+
+            <a href="https://www.sistemasca.com/blog/160/o-que-e-imc-entenda-a-importancia-desse-protocolo-na-avaliacao-fisica"
+                target="_blank" class="hidden sm:block">
+                <i
+                    class="fa-solid fa-arrow-up-right-from-square text-xl cursor-pointer hover:scale-110 hover:text-zinc-100 duration-200"></i>
+                </i>
+            </a>
+        </div>
+
+        <form class="flex flex-col mt-8 gap-10" id="form">
+            <div class="flex flex-col m-auto gap-[4px]">
+                <label for="height-input" class="text-white font-medium text-base sm:text-lg">Altura:</label>
+                <div class="w-64 sm:w-80 sm:h-12 bg-white flex items-center justify-center gap-6 sm:gap-12 rounded-lg">
+                    <i class="fa-solid fa-ruler text-gray-color text-xl"></i>
+                    <input type="text" id="height-input" class="w-32 sm:w-36 h-12 border-none outline-none text-gray-color"
+                        placeholder="1.80" autocomplete="off">
+                    <span class="text-gray-color text-xl">m</span>
+                </div>
+            </div>
+
+            <div class="flex flex-col m-auto">
+                <label for="weight-input" class="text-white font-medium text-base sm:text-lg">Peso:</label>
+                <div class="w-64 sm:w-80 sm:h-12 bg-white flex items-center justify-center gap-6 sm:gap-12 rounded-lg">
+                    <i class="fa-solid fa-weight-hanging text-gray-color text-xl"></i>
+                    <input type="text" id="weight-input" class="w-32 sm:w-36 h-12 border-none outline-none text-gray-color"
+                        placeholder="72.2" autocomplete="off">
+                    <span class="text-gray-color text-xl">Kg</span>
+                </div>
+            </div>
+
+            <button
+                class="text-white font-semibold text-xl bg-green-color w-52 h-12 m-auto rounded mt-4 hover:bg-green-600 duration-200">
+                Calcular
+            </button>
+        </form>
+    </section>
+
+    <p class="text-white font-semibold text-lg w-64 sm:w-80 text-center invisible" id="return-value">Seu IMC está em 22.9,
+        parabéns, você está no seu <span class="text-green-color">peso ideal.</span></p>
+
+</body>
+
+</html>
