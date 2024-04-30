@@ -1,4 +1,4 @@
-![image](https://github.com/eduardossoares/imc-calculator/assets/128731192/1a5897fc-7be1-4f9c-9e49-6f733ca2ea79)# Calculadora de IMC
+# Calculadora de IMC
 
 Esta é uma calculadora de Índice de Massa Corporal (IMC) desenvolvida utilizando HTML, CSS, JavaScript e Tailwind CSS.
 
